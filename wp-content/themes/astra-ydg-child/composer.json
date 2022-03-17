@@ -1,0 +1,13 @@
+{
+    "name": "ydg/astra-ydg-child",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Preston Lloyd",
+            "email": "preston@yourdesignguys.com"
+        }
+    ],
+    "require": {
+        "leafo/scssphp": "^0.8.2"
+    }
+}

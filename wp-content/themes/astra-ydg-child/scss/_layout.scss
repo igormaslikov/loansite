@@ -1,0 +1,392 @@
+/**
+ * General Layouts
+ */
+
+// Rows
+.fl-row-content-wrap {
+	padding-top: $row-spacing;
+	padding-bottom: $row-spacing;
+}
+
+.fl-module-content {
+	margin-top: $module-spacing;
+	margin-bottom: $module-spacing;
+}
+
+// Alt Rows
+.alt-row {
+	background: $pri-color;
+	color: color-yiq($pri-color);
+
+	*:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(input):not(select):not(textarea) {
+		color: inherit;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: color-yiq($pri-color);
+
+		* {
+			color: inherit;
+		}
+	}
+
+	a,
+	a:visited {
+		color: $accent-color;
+	}
+}
+
+// Alt Row 2
+.alt-row2 {
+	background: $sec-color;
+	color: color-yiq($sec-color);
+
+	*:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(input):not(select):not(textarea) {
+		color: inherit;
+	}
+
+	a {
+		color: $link-color !important;
+
+		&:hover {
+			color: $link-hover-color !important;
+		}
+	}
+}
+
+// Page headings
+.page-heading {
+	background-color: $sec-color;
+	border-bottom: 1px solid darken($sec-color, 5%);
+
+	.fl-row-content-wrap {
+		min-height: 1vh;
+		padding: 30px 15px;
+	}
+
+	h1 {
+		font-size: 2.2em;
+	}
+}
+
+// Alt cols
+.alt-col {
+	.fl-col-content {
+		background: $pri-color;
+		color: color-yiq($pri-color);
+		margin: 20px;
+		padding: 15px 0;
+	}
+
+	*:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(input):not(select):not(textarea) {
+		color: color-yiq($pri-color);
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: color-yiq($pri-color);
+
+		* {
+			color: inherit;
+		}
+	}
+}
+
+// Alt col2
+.alt-col2 {
+	.fl-col-content {
+		background: $sec-color;
+		color: color-yiq($sec-color);
+		margin: 20px;
+		padding: 15px 0;
+	}
+
+	*:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(input):not(select):not(textarea) {
+		color: color-yiq($sec-color);
+	}
+
+	a {
+		color: $link-color !important;
+
+		&:hover {
+			color: $link-hover-color !important;
+		}
+	}
+}
+
+// Alt Col hover-color
+.alt-col-hover {
+	.fl-col-content {
+		transition: all ease 500ms;
+	}
+
+	.fl-col-content:hover {
+		background-color: $pri-color;
+
+		*,
+		i,
+		i:before {
+			color: #fff !important;
+		}
+	}
+}
+
+// Row Column Backgrounds
+.row-col-bg,
+.row-col-bg2 {
+	.fl-col {
+		.fl-col-content {
+			margin: 10px;
+			padding: 15px 0;
+		}
+
+		&.empty .fl-col-content {
+			background: none;
+			margin: 0;
+		}
+	}
+}
+
+.row-col-bg {
+	background: $pri-color;
+
+	.fl-col-content {
+		background: white;
+	}
+
+	*:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(input):not(select):not(textarea) {
+		color: $body-color;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: $heading-color;
+
+		* {
+			color: inherit;
+		}
+	}
+
+	.empty .fl-col-content {
+		* {
+			color: color-yiq($pri-color);
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: color-yiq($pri-color);
+
+			* {
+				color: inherit;
+			}
+		}
+	}
+
+	&.alt-row,
+	&.alt-row2 {
+		* {
+			color: $body-color;
+		}
+	}
+}
+
+.row-col-bg2 {
+	background: white;
+
+	.fl-col-content {
+		background: $sec-color;
+	}
+
+	*:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(input):not(select):not(textarea) {
+		color: color-yiq($sec-color);
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: color-yiq($sec-color);
+
+		* {
+			color: inherit;
+		}
+	}
+}
+
+// Scroll to Top
+#ast-scroll-top {
+	background-color: darken($pri-color, 15%);
+}
+
+// Blog
+.blog .site-content>.ast-container {
+	padding-top: 60px;
+}
+
+// Medium devices (tablets, 992px and down)
+@media (max-width: 992px) {
+
+	// parallax rows fix zoom
+	.fl-row-bg-parallax {
+		.fl-row-content-wrap {
+			background-size: auto auto;
+		}
+	}
+
+	.left-center-mobile {
+		.infobox-has-icon.infobox-icon-left {
+			text-align: center !important;
+		}
+
+		.uabb-imgicon-wrap {
+			display: none !important;
+		}
+	}
+
+	// center align
+	.center-mobile {
+		* {
+			text-align: center !important;
+		}
+
+		.pp-dual-button-inner {
+			float: none !important;
+		}
+
+		.fl-col {
+			float: none;
+		}
+
+		.uabb-infobox-left-right-wrap,
+		.uabb-infobox-left-right-wrap {
+			width: auto !important;
+		}
+	}
+
+	.fl-col {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.float-none.fl-col {
+		float: none;
+	}
+}
+
+// Large devices (large desktops, 1200px and down)
+@media (max-width: 1200px) {
+
+	// Column Faux Full Content Width
+	.faux-content-width {
+		width: 100% !important;
+	}
+
+	.faux-content-width-left,
+	.faux-content-width-right {
+		display: none !important;
+	}
+}
+
+// Small devices (767px and down)
+@media (max-width: 767px) {
+	.fl-row-content-wrap {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.fl-col-small {
+		max-width: 90%;
+	}
+}
+
+// Small devices (768px and up)
+@media (min-width: 768px) {
+
+	// Content 75%
+	.width75 {
+		width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+
+		.inline_form_wrapper.gform_wrapper .gform_footer button,
+		.inline_form_wrapper.gform_wrapper .gform_footer input[type="button"],
+		.inline_form_wrapper.gform_wrapper .gform_footer input[type="submit"] {
+			width: 100%;
+		}
+	}
+
+	// Content 50%
+	.width50 {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+
+		.inline_form_wrapper.gform_wrapper .gform_footer button,
+		.inline_form_wrapper.gform_wrapper .gform_footer input[type="button"],
+		.inline_form_wrapper.gform_wrapper .gform_footer input[type="submit"] {
+			width: 100%;
+		}
+	}
+
+	// Full Height Row
+	.fl-row-full-height .fl-row-content-wrap {
+		min-height: calc(100vh - 135px);
+	}
+
+	// Page Heading Height
+	.page-heading {
+		.fl-row-content-wrap {
+			min-height: 33vh;
+			padding: 10px 15px;
+		}
+	}
+}
+
+// Medium devices (tablets, 992px and up)
+@media (min-width: 992px) {
+
+	// parallax rows fix zoom
+	.fl-row-bg-parallax {
+		.fl-row-content-wrap {
+			background-size: auto auto;
+		}
+	}
+
+}
+
+// Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+	// Column Faux Full Content Width
+	.faux-content-width {
+		width: 1240px !important;
+	}
+
+	.faux-content-width-left,
+	.faux-content-width-right {
+		width: calc(50% - 620px) !important;
+	}
+}

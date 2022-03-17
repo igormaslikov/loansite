@@ -1,0 +1,53 @@
+button,
+input[type=submit],
+input[type=button],
+input[type=reset] {
+	@include button($btn-style, $btn-hover-style, $btn-bg-color, $btn-text-color, $btn-hover-bg-color, $btn-hover-text-color);
+}
+
+a.fl-button,
+a.fl-button:visited,
+.fl-builder-content a.fl-button,
+.fl-builder-content a.fl-button:visited {
+	@include button($btn-style, $btn-hover-style, $btn-bg-color, $btn-text-color, $btn-hover-bg-color, $btn-hover-text-color);
+}
+
+.uabb-creative-button-wrap a,
+.uabb-creative-button-wrap a:visited {
+	@include button($btn-style, $btn-hover-style, $btn-bg-color, $btn-text-color, $btn-hover-bg-color, $btn-hover-text-color);
+}
+
+a.pp-button,
+a.pp-button:visited {
+	@include button($btn-style, $btn-hover-style, $btn-bg-color, $btn-text-color, $btn-hover-bg-color, $btn-hover-text-color);
+}
+
+.subtle-btn {
+	button,
+	input[type=submit],
+	input[type=button],
+	input[type=reset],
+	a.fl-button,
+	a.fl-button:visited,
+	.fl-builder-content a.fl-button,
+	.fl-builder-content a.fl-button:visited,
+	.uabb-creative-button-wrap a,
+	.uabb-creative-button-wrap a:visited,
+	a.pp-button,
+	a.pp-button:visited {
+		background: transparent !important;
+		border: 2px solid #e5e5e5 !important;
+		color: $heading-color !important;
+
+		*,
+		span {
+			color: $heading-color !important;
+		}
+
+		&:hover,
+		&:focus {
+			background: #e5e5e5 !important;
+			border: 2px solid #e5e5e5 !important;
+		}
+	}
+}

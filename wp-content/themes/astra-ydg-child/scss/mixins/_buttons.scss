@@ -1,0 +1,264 @@
+@mixin button($style, $hover-style, $bg, $text-color, $hover-bg, $hover-text-color) {
+	border-style: solid;
+	border-width: $btn-border-width;
+	border-radius: $btn-border-radius;
+	font-size: $btn-font-size;
+	padding: $btn-padding-x $btn-padding-y;
+
+	* {
+		color: inherit;
+	}
+
+	@if $style=="flat" {
+		@include button-flat($bg, $text-color);
+	}
+
+	@else if $style=="border" {
+		@include button-border($bg, $text-color);
+	}
+
+	@else if $style=="gradient" {
+		@include button-gradient($bg, $text-color);
+	}
+
+	@include button-hover($style, $hover-style, $hover-bg, $hover-text-color);
+}
+
+@mixin button-hover($style, $hover-style, $hover-bg, $hover-text-color) {
+	transition: $btn-transition;
+
+	@if $hover-style=="fade" {
+		@include button-hover-fade($style, $hover-bg, $hover-text-color);
+	}
+
+	@else if $hover-style=="grow" {
+		@include button-hover-grow($style, $hover-bg, $hover-text-color);
+	}
+
+	@else if $hover-style=="sweep" {
+		@include button-hover-sweep($style, $hover-bg, $hover-text-color);
+	}
+
+	@else if $hover-style=="float" {
+		@include button-hover-float($style, $hover-bg, $hover-text-color);
+	}
+
+	@else if $hover-style=="underline" {
+		@include button-hover-underline($style, $hover-bg, $hover-text-color);
+	}
+}
+
+// Button styles
+@mixin button-flat($background, $text-color) {
+	background: $background;
+	color: $text-color;
+}
+
+@mixin button-border($background, $text-color) {
+	background: transparent;
+	border-color: $background;
+	color: $text-color;
+}
+
+@mixin button-gradient($background, $text-color) {
+	background-color: $background;
+	background-image: linear-gradient(to bottom, $background 0%, darken($background, 20%) 100%);
+	border-color: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.3);
+	color: $text-color;
+}
+
+// Hover animations
+@mixin button-hover-fade($style, $hover-color, $hover-text-color) {
+	&:hover {
+		background-color: $hover-color;
+		color: $hover-text-color;
+
+		@if $style=='flat' {
+			border-width: $btn-border-width;
+		}
+
+		@else if $style=='border' {
+			border-color: $hover-color;
+		}
+
+		@else if $style=='gradient' {
+			background-image: linear-gradient(to bottom, $hover-color 0%, darken($hover-color, 20%) 100%);
+		}
+	}
+}
+
+@mixin button-hover-grow($style, $hover-color, $hover-text-color) {
+	&:hover {
+		transform: scale(1.1);
+
+		@if $style=='flat' {
+			background: $hover-color;
+			color: $hover-text-color;
+		}
+
+		@else if $style=='border' {
+			background: transparent;
+			color: $hover-text-color;
+		}
+
+		@else if $style=='gradient' {
+			background: $hover-color;
+			background-image: linear-gradient(to bottom, $hover-color 0%, darken($hover-color, 20%) 100%);
+			color: $hover-text-color;
+		}
+	}
+}
+
+@mixin button-hover-shrink($style, $hover-color, $hover-text-color) {
+	&:hover {
+		transform: scale(0.9);
+
+		@if $style=='flat' {
+			background-color: $hover-color;
+			color: $hover-text-color;
+		}
+
+		@else if $style=='border' {
+			background-color: transparent;
+			color: $hover-text-color;
+		}
+
+		@else if $style=='gradient' {
+			background-color: $hover-color;
+			background-image: linear-gradient(to bottom, $hover-color 0%, darken($hover-color, 20%) 100%);
+			color: $hover-text-color;
+		}
+	}
+}
+
+@mixin button-hover-sweep($style, $hover-color, $hover-text-color) {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+
+	&::before {
+		background: $hover-color;
+		content: '';
+		display: block;
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		transition: all ease-out 300ms;
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+	}
+
+	&:hover {
+		@if $style=='flat' {
+			background-color: $btn-bg-color;
+			color: $hover-text-color;
+		}
+
+		@else if $style=='border' {
+			border-color: $hover-color;
+			background-color: transparent;
+			color: $hover-text-color;
+		}
+
+		&::before {
+			transform: none;
+		}
+	}
+}
+
+@mixin button-hover-float($style, $hover-color, $hover-text-color) {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+
+	&::before {
+		background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+		content: '';
+		pointer-events: none;
+		position: absolute;
+		top: 100%;
+		left: 5%;
+		right: 5%;
+		width: 90%;
+		height: 10px;
+		opacity: 0;
+		transition: all ease 0.2s;
+		z-index: -1;
+	}
+
+	&:hover {
+		color: $hover-text-color;
+		transform: translateY(-5px);
+
+		@if $style=="flat" {
+			background-color: $hover-color;
+		}
+
+		@else if $style=="border" {
+			background-color: transparent;
+			border-color: $hover-color;
+		}
+
+		@else if $style=="gradient" {
+			background-color: $hover-color;
+			background-image: linear-gradient(to bottom, $hover-color 0%, darken($hover-color, 20%) 100%);
+		}
+
+		&::before {
+			opacity: 1;
+			transform: translateY(5px);
+		}
+	}
+}
+
+@mixin button-hover-underline($style, $hover-color, $hover-text-color) {
+	backface-visibility: hidden;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+
+	&::before {
+		content: '';
+		display: block;
+		height: 4px;
+		position: absolute;
+		z-index: -1;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		transition: all ease-out 0.3s;
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+	}
+
+	@if $style=='flat' {
+		&:hover {
+			background: $accent-color;
+			color: $hover-text-color;
+		}
+
+		&::before {
+			background: $hover-color;
+		}
+	}
+
+	@else if $style=='border' {
+		&:hover {
+			background: transparent;
+			border-color: $accent-color;
+			color: $hover-text-color;
+		}
+
+		&::before {
+			background: $hover-color;
+		}
+	}
+
+	&:hover::before {
+		transform: none;
+	}
+}

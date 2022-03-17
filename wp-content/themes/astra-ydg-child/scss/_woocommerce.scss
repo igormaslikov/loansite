@@ -1,0 +1,31 @@
+.woocommerce {
+
+	a.button,
+	button.button,
+	.woocommerce-message a.button,
+	#respond input#submit.alt,
+	a.button.alt,
+	button.button.alt,
+	input.button.alt,
+	input.button,
+	input.button:disabled,
+	input.button:disabled[disabled],
+	input.button:disabled:hover,
+	input.button:disabled[disabled]:hover,
+	#respond input#submit,
+	button.button.alt.disabled {
+		@include button($btn-style, $btn-hover-style, $btn-bg-color, $btn-text-color, $btn-hover-bg-color, $btn-hover-text-color);
+	}
+}
+
+.product-links {
+	display: none;
+}
+
+.woocommerce-product-details__short-description p:last-child {
+	margin-bottom: 20px;
+}
+
+.uabb-woo-product-wrapper {
+	border: 1px solid #e5e5e5;
+}

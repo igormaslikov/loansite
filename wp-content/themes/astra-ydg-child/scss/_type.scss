@@ -1,0 +1,82 @@
+// Base body text
+body {}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+//  paragraphs
+p {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.light *,
+.light {
+  font-weight: 300 !important;
+}
+
+.pipe {
+  opacity: .3;
+  padding: 0 8px;
+}
+
+// Lists
+.fl-module-rich-text,
+.fl-module-callout {
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: $list-spacing;
+      padding-left: $list-padding-left;
+      position: relative;
+
+      &::before {
+        color: $list-icon-color;
+        content: $list-icon;
+        font-family: FontAwesome;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+}
+
+// Footer
+footer {
+  h3,
+  .h3 {
+    font-size: 1.3em;
+  }
+
+  h5,
+  .h5 {
+    font-size: 1.15em;
+  }
+
+  .menu a {
+    font-size: 1em;
+  }
+}

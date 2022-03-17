@@ -1,0 +1,35 @@
+@import 'variables';
+@import 'mixins';
+@import 'type';
+@import 'layout';
+@import 'buttons';
+@import 'header';
+@import 'footer';
+@import 'modules';
+@import 'woocommerce';
+@import 'forms';
+@import 'blog';
+
+// Custom Styles
+
+ 
+// Responsive Media Queries
+// Mobile devices (phones, 767px and down)
+@media (max-width: 768px) {
+
+}
+
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Medium devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

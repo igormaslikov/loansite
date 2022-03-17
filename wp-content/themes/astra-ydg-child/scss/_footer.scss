@@ -1,0 +1,46 @@
+// Footer
+.footer-thumbs {
+	.uabb-thumbnail-position-left .uabb-post-thumbnail {
+		float: left;
+		width: 20%;
+	}
+}
+
+.footer-logo,
+.footer-logo-right,
+.footer-logo-left {
+	.infobox-photo-left .uabb-infobox-content {
+		width: auto !important;
+	}
+}
+
+.footer-logo-right {
+	.uabb-infobox {
+		text-align: right !important;
+	}
+}
+
+.footer-logo-left {
+	.uabb-infobox {
+		text-align: left !important;
+	}
+}
+
+// Small devices (992px and down)
+@media (max-width: 992px) {
+	.footer-logo {
+		display: none;
+	}
+
+	.footer-logo,
+	.footer-logo-left,
+	.footer-logo-right .uabb-imgicon-wrap {
+		display: none;
+	}
+
+	footer {
+		.uabb-infobox-left-right-wrap .uabb-imgicon-wrap {
+			margin-bottom: 0px !important;
+		}
+	}
+}

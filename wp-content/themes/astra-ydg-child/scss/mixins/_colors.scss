@@ -1,0 +1,35 @@
+// Colors
+
+@function color-yiq($color, $dark: $text-dark, $light: $text-light) {
+	$r: red($color);
+	$g: green($color);
+	$b: blue($color);
+
+	$yiq: (($r * 299) + ($g * 587) + ($b * 114)) / 1000;
+
+	@if ($yiq >=$contrast-threshold) {
+		@return $dark;
+	}
+
+	@else {
+		@return $light;
+	}
+}
+
+@function set-text-color($color) {
+	@return color-yiq($color);
+}
+
+@function set-heading-color($color) {
+	@return color-yiq($color);
+}
+
+@function set-bg-color($color) {
+	@if (lightness($color) > 65) {
+		@return darken($color, 30%);
+	}
+
+	@else {
+		@return white;
+	}
+}

@@ -1,0 +1,279 @@
+// Icons
+.fa, .fas, .fal, .fab {
+    transition: all ease 0.3s;
+}
+
+// .fl-module-icon, .fl-icon-group, .pp-announcement-bar-icon, .pp-flip-box, .pp-tabs-labels, .pp-infobox-icon, .pp-icon-list, .pp-infolist-icon, .pp-pullquote-icon, .pp-social-icons, .pp-member-social-icons, .pp-notification-icon {
+//     .fa, .fas, .fal, .fab, .pp-icon, .ua-icon, .pp-list-item-icon {
+//         color: $pri-color;
+//     }
+// }
+
+// Accordions
+.pp-accordion .pp-accordion-icon:before {
+    color: $pri-color;
+}
+.pp-headline--style-highlight svg path {
+    stroke: $pri-color;
+}
+
+// SOCIAL ICON BRAND COLORS
+.brand-colors {
+    // Facebook
+    i.ua-icon-facebook22, i.ua-icon-facebook, i.ua-icon-facebook-with-circle, i.ua-icon-facebook2, i.ua-icon-facebook3, i.fa-facebook-f, i.fa-facebook-messenger, i.fa-facebook-square, i.fa-facebook, i.fi-social-facebook, i.dashicons-facebook, .dashicons-facebook-alt {
+        &:before {
+            color: #3b5798;
+        }
+        &:hover:before {
+            color: darken(#3b5798, 10%);
+        }
+    }
+    // Twitter
+    i.ua-icon-twitter, i.ua-icon-twitter-with-circle, i.ua-icon-twitter2, i.fa-twitch, i.fa-twitter-square, i.fa-twitter, i.fi-social-twitter, i.dashicons-twitter {
+        &:before {
+            color: #56abee;
+        }
+        &:hover:before {
+            color: darken(#56abee, 10%);
+        }
+    }
+    // Google
+    i.ua-icon-google-plus, i.ua-icon-googleplus, i.ua-icon-google-with-circle, i.ua-icon-google, i.fa-google-plus-g, i.fa-google-plus-square, i.fa-google-plus, i.fi-social-google-plus, i.dashicons-googleplus {
+        &:before {
+            color: #dc4335;
+        }
+        &:hover:before {
+            color: darken(#dc4335, 10%);
+        }
+    }
+    // Instagram
+    i.ua-icon-instagram-with-circle, i.ua-icon-instagram, i.fa-instagram, i.fi-social-instagram {
+        &:before {
+            background: rgb(84,66,214);
+            background: linear-gradient(135deg, rgba(84,66,214,1) 0%,rgba(198,37,141,1) 33%,rgba(242,39,60,1) 66%,rgba(249,194,81,1) 100%);
+            color: transparent !important;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        &:hover::before {
+            background: rgb(249,194,81);
+            background: linear-gradient(135deg, rgba(249,194,81,1) 0%,rgba(242,39,60,1) 34%,rgba(198,37,141,1) 67%,rgba(84,66,214,1) 100%);
+            color: transparent !important;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+    }
+    // YouTube
+    i.ua-icon-youtube-with-circle, i.ua-icon-youtube, i.fa-youtube-square, i.fa-youtube, i.fi-social-youtube {
+        &:before {
+            color: #ff0000;
+        }
+        &:hover:before {
+            color: darken(#ff0000, 10%);
+        }
+    }
+    // Linkedin
+    i.ua-icon-linkedin, i.ua-icon-linkedin-with-circle, i.ua-icon-linkedin2, i.fa-linkedin-in, i.fa-linkedin, i.fi-social-linkedin {
+        &:before {
+            color: #0077b7;
+        }
+        &:hover:before {
+            color: darken(#0077b7, 10%);
+        }
+    }
+    // Pinterest
+    i.ua-icon-pinterest-with-circle, i.ua-icon-pinterest, i.fa-pinterest-p, i.fa-pinterest-square, i.fa-pinterest, i.fi-social-pinterest {
+        &:before {
+            color: #ca2027;
+        }
+        &:hover:before {
+            color: darken(#ca2027, 10%);
+        }
+    }
+    // Snapchat
+    i.fa-snapchat-ghost, i.fa-snapchat-square, i.fa-snapchat, i.fi-social-snapchat {
+        &:before {
+            color: #ffc91b;
+        }
+        &:hover:before {
+            color: darken(#ffc91b, 10%);
+        }
+    }
+}
+
+.brand-colors-hover {
+    // Facebook
+    i.ua-icon-facebook22, i.ua-icon-facebook, i.ua-icon-facebook-with-circle, i.ua-icon-facebook2, i.ua-icon-facebook3, i.fa-facebook-f, i.fa-facebook-messenger, i.fa-facebook-square, i.fa-facebook, i.fi-social-facebook, i.dashicons-facebook, .dashicons-facebook-alt {
+        &:hover:before {
+            color: #3b5798;
+        }
+    }
+    // Twitter
+    i.ua-icon-twitter, i.ua-icon-twitter-with-circle, i.ua-icon-twitter2, i.fa-twitch, i.fa-twitter-square, i.fa-twitter, i.fi-social-twitter, i.dashicons-twitter {
+        &:hover:before {
+            color: #56abee;
+        }
+    }
+    // Google
+    i.ua-icon-google-plus, i.ua-icon-googleplus, i.ua-icon-google-with-circle, i.ua-icon-google, i.fa-google-plus-g, i.fa-google-plus-square, i.fa-google-plus, i.fi-social-google-plus, i.dashicons-googleplus {
+        &:hover:before {
+            color: #dc4335;
+        }
+    }
+    // Instagram
+    i.ua-icon-instagram-with-circle, i.ua-icon-instagram, i.fa-instagram, i.fi-social-instagram {
+        &:hover:before {
+            background: rgb(84,66,214);
+            background: linear-gradient(135deg, rgba(84,66,214,1) 0%,rgba(198,37,141,1) 33%,rgba(242,39,60,1) 66%,rgba(249,194,81,1) 100%);
+            color: transparent !important;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+    }
+    // YouTube
+    i.ua-icon-youtube-with-circle, i.ua-icon-youtube, i.fa-youtube-square, i.fa-youtube, i.fi-social-youtube {
+        &:hover:before {
+            color: #ff0000;
+        }
+    }
+    // Linkedin
+    i.ua-icon-linkedin, i.ua-icon-linkedin-with-circle, i.ua-icon-linkedin2, i.fa-linkedin-in, i.fa-linkedin, i.fi-social-linkedin {
+        &:hover:before {
+            color: #0077b7;
+        }
+    }
+    // Pinterest
+    i.ua-icon-pinterest-with-circle, i.ua-icon-pinterest, i.fa-pinterest-p, i.fa-pinterest-square, i.fa-pinterest, i.fi-social-pinterest {
+        &:hover:before {
+            color: #ca2027;
+        }
+    }
+    // Snapchat
+    i.fa-snapchat-ghost, i.fa-snapchat-square, i.fa-snapchat, i.fi-social-snapchat {
+        &:hover:before {
+            color: #ffc91b;
+        }
+    }
+}
+
+// Price Table
+ul.pp-pricing-table-features {
+    margin: 1em !important;
+}
+
+.pp-pricing-table .fl-button {
+    text-shadow: 0px 0px 0px rgb(132, 83, 83) !important;
+}
+
+// Separator - HR Narrow
+.hr-narrow, .hr-narrow-left {
+  .uabb-separator {
+    width: 40px;
+  }
+}
+.hr-narrow-left .uabb-separator {
+  float:left;
+}
+.hr-narrow-left.center-mobile .uabb-separator {
+  @media (max-width: 768px) {
+    float:none !important;
+  }
+}
+.hr-narrow-left.center-tablet .uabb-separator {
+  @media (max-width: 992px) {
+    float:none !important;
+  }
+}
+// Advanced Separator
+.opacity20 {
+  .uabb-separator {
+    border-top: 1px solid rgba(255,255,255,.2);
+  }
+}
+
+// Infobox
+.infobox-icon-left .uabb-imgicon-wrap {
+    margin-right: 10px;
+}
+
+// Accordion
+.pp-accordion-button-label {
+  position: relative;
+  left: 40px;
+  font-weight: bold;
+  height: 40px;
+}
+.pp-accordion-button-icon {
+  position: absolute;
+  left: 0px;
+  padding-left: 0;
+  top: 7px;
+}
+.pp-accordion-button {
+  position: relative;
+}
+.pp-accordion-content {
+  margin-left: 40px;
+}
+
+// Content Slider
+@media (min-width: 768px) {
+  .fl-slide-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 30%;
+    @media (max-width:1300px) {
+        width: 90%;
+        padding-left: 60px !important;
+        * {
+          text-align: center;
+        }
+    }
+  }
+  @media (max-width: 992px) {
+    .fl-content-slider, .fl-slide {
+      min-height: 450px !important;
+    }
+    .fl-content-slider .bx-viewport {
+      height: 450px !important;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .fl-builder-content .fl-module-content-slider .fl-slide .fl-slide-content {
+    padding: 30px 60px;
+  }
+}
+
+// Number
+.uabb-module-content .uabb-number-text {
+  @media (max-width: 768px) {
+      text-align: center;
+  }
+}
+
+// Hover Card
+.pp-hover-card {
+  @media (max-width: 992px) {
+    float: left !important;
+  }
+}
+.full-width-mobile .pp-hover-card {
+  @media (max-width: 992px) {
+    width: 100%;
+  }
+}
+
+// Info Banner
+.title-bg .fl-module-info-banner {
+  .uabb-ultb3-title {
+    background: #fff;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+  }
+}

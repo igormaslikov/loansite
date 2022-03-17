@@ -1,0 +1,92 @@
+// Layout
+$row-spacing:              20px !default;
+$module-spacing:           20px !default;
+
+// Colors
+$pri-color:                #d5d5d5 !default;
+$sec-color:                #f5f5f5 !default;
+$accent-color:             #428bca !default;
+$hover-color:              #428bca !default;
+
+$heading-color:            #333333 !default;
+$body-color:               #808080 !default;
+$link-color:               $accent-color !default;
+$link-hover-color:         $hover-color !default;
+
+// Customize text colors for the color contrast function
+$contrast-threshold:       150;
+$text-light:               white;
+$text-dark:                $body-color;
+
+// General
+$border-width:             1px !default;
+$border-color:             #dddddd !default;
+$border-radius:            4px !default;
+
+$base-font-size:           16px !default;
+$base-line-height:         1.4 !default;
+$base-margin-bottom:       10px !default;
+
+// Buttons
+$btn-style:                'flat' !default;
+$btn-hover-style:          'fade' !default;
+
+$btn-bg-color:             $accent-color !default;
+$btn-text-color:           white !default;
+$btn-hover-bg-color:       $hover-color !default;
+$btn-hover-text-color:     white !default;
+
+$btn-font-size:            $base-font-size !default;
+$btn-border-width:         0 !default;
+$btn-border-color:         transparent !default;
+$btn-border-radius:        2px !default;
+
+$btn-padding-x:            0.5rem !default;
+$btn-padding-y:            1rem !default;
+
+$btn-font-size:            1rem !default;
+$btn-font-weight:          normal !default;
+
+$btn-transition:           all ease 500ms;
+
+// Forms
+$input-height:             40px;
+$input-font-size:          $base-font-size;
+$input-line-height:        $base-line-height;
+
+$input-color:              $body-color;
+$input-placeholder-color:  lighten( $body-color, 20% );
+
+$input-border-color:       $border-color;
+$input-focus-border-color: darken( $border-color, 20% );
+
+$input-border-width:       $border-width;
+$input-border-radius:      $border-radius;
+$input-padding-x:          0;
+$input-padding-y:          12px;
+
+$input-spacing:            5px;
+
+// Lists
+$list-icon:                '\f00c' !default;
+$list-icon-color:          $accent-color !default;
+$list-spacing:             5px;
+$list-padding-left:        1.5em;
+
+// css variables
+:root {
+    --pri-color: $pri-color;
+    --sec-color: $sec-color;
+    --accent-color: $accent-color;
+    --hover-color: $hover-color;
+
+    --heading-color: $heading-color;
+    --body-color: $body-color;
+    --link-color: $link-color;
+    --link-hover-color: $link-hover-color;
+
+    --btn-bg-color: $btn-bg-color;
+    --btn-text-color: $btn-text-color;
+    --btn-hover-bg-color: $btn-hover-bg-color;
+    --btn-hover-text-color: $btn-hover-text-color;
+}

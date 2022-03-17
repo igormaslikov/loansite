@@ -1,0 +1,684 @@
+# Translation of Plugins - NS Cloner &#8211; Site Copier - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - NS Cloner &#8211; Site Copier - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-13 04:47:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - NS Cloner &#8211; Site Copier - Stable (latest release)\n"
+
+#: processes/class-ns-cloner-files-process.php:31
+msgid "Files"
+msgstr "Archivos"
+
+#: processes/class-ns-cloner-tables-process.php:31
+msgid "Tables"
+msgstr "Tablas"
+
+#: processes/class-ns-cloner-rows-process.php:75
+msgid "Rows"
+msgstr "Filas"
+
+#: ns-cloner.php:534
+msgid "You don't have sufficient permissions for this action."
+msgstr "No tienes permisos suficientes para realizar esta acción."
+
+#: ns-cloner.php:384 ns-cloner.php:385
+msgid "Logs / Status"
+msgstr "Registros/Estado"
+
+#: ns-cloner.php:369 ns-cloner.php:370
+msgid "NS Cloner"
+msgstr "NS Cloner"
+
+#: ns-cloner.php:283
+msgid "Target Site"
+msgstr "Sitio de destino"
+
+#: ns-cloner.php:280
+msgid "Source Site"
+msgstr "Sitio de origen"
+
+#: ns-cloner.php:277
+msgid "Site cloned successfully!"
+msgstr "¡Sitio clonado correctamente!"
+
+#: ns-cloner.php:269
+msgid "Take an existing site and create a brand new copy of it at another url."
+msgstr "Toma un sitio existente y crea una nueva copia del mismo en otra url."
+
+#: ns-cloner.php:268
+msgid "Clone"
+msgstr "Clonar"
+
+#: ns-cloner.php:267
+msgid "Standard Clone"
+msgstr "Clonación estándar"
+
+#: features/class-ns-cloner-analytics.php:94
+msgid "No, Dismiss"
+msgstr "No, descartar"
+
+#: features/class-ns-cloner-analytics.php:90
+msgid ""
+"Your domain name will be anonymized and we won't know \n"
+"\t\t\t\twhere the stats are from (but they are still helpful to us!) Thank you!"
+msgstr ""
+"Tu nombre de dominio será anónimo y no lo sabremos \n"
+"\t\t\t\tde donde provienen las estadísticas (¡pero siguen siendo útiles para nosotros!) ¡Gracias!"
+
+#: features/class-ns-cloner-analytics.php:89
+msgid "Yes, Share Anonymously"
+msgstr "Sí, compartir de forma anónima"
+
+#: features/class-ns-cloner-analytics.php:86
+msgid "Yes, Share"
+msgstr "Sí, compartir"
+
+#: ns-utils.php:204
+msgid "A site title is required"
+msgstr "El título del sito es obligatorio"
+
+#: ns-utils.php:199
+msgid "That URL is reserved by WordPress."
+msgstr "Esa URL está reservada por WordPress."
+
+#: ns-utils.php:192
+msgid "Sorry, that site already exists!"
+msgstr "Lo siento, ¡ese sitio ya existe!"
+
+#: ns-utils.php:178
+msgid "Site URLs can only contain letters (a-z), numbers and hyphens."
+msgstr "Los nombres de dominio solo pueden contener letras, números o guiones."
+
+#: ns-utils.php:176
+msgid "Site URL is required."
+msgstr "La URL del sitio es obligatoria."
+
+#: class-ns-cloner-process-manager.php:548
+msgid "An unknown error occurred. Check the logs for info."
+msgstr "Ha ocurrido un error desconocido. Comprueba los registros para obtener información."
+
+#: class-ns-cloner-process-manager.php:507
+msgid "Source and target uploads directories are the same. Cannot clone files."
+msgstr "Los directorios de subida de origen y destino son los mismos. No se pueden clonar los archivos."
+
+#: class-ns-cloner-process-manager.php:473
+msgid "Source and target prefix the same. Cannot clone tables."
+msgstr "Los prefijos de origen y destino son los mismos. No se pueden clonar las tablas."
+
+#: class-ns-cloner-process-manager.php:330
+msgid "Replacements"
+msgstr "Reemplazos"
+
+#. translators: number of text replacements made on site content
+#: class-ns-cloner-process-manager.php:329
+msgid "%d replacement made"
+msgid_plural "%d replacements made"
+msgstr[0] "%d reemplazo hecho"
+msgstr[1] "%d reemplazos hechos"
+
+#. translators: number of items copied in clone operation
+#: class-ns-cloner-process-manager.php:321
+msgid "%d item processed"
+msgid_plural "%d items processed"
+msgstr[0] "%d elemento procesado"
+msgstr[1] "%d elementos procesados"
+
+#: class-ns-cloner-process-manager.php:308
+msgid "Total Time"
+msgstr "Tiempo total"
+
+#: class-ns-cloner-process-manager.php:307
+msgid "End Time"
+msgstr "Hora de finalización"
+
+#: class-ns-cloner-process-manager.php:306
+msgid "Start Time"
+msgstr "Hora de inicio"
+
+#: class-ns-cloner-process-manager.php:146
+msgid "Validation errors found."
+msgstr "Se encontraron errores de validación."
+
+#: class-ns-cloner-process-manager.php:137
+msgid "A cloning process is already in progress. Please wait until it completes."
+msgstr "Se está llevando a cabo un proceso de clonación. Por favor, espera hasta que se complete."
+
+#: sections/class-ns-cloner-section-select-source.php:76
+msgid "If you haven't already, now is a great time to set up a \"template\" site exactly the way you want the new clone site to start out (theme, plugins, settings, etc.)."
+msgstr "Si aún no lo has hecho, ahora es un buen momento para configurar un sitio «plantilla» exactamente de la forma en que quieres que comience el nuevo sitio clonado (tema, plugins, ajustes, etc.)."
+
+#: sections/class-ns-cloner-section-select-source.php:75
+msgid "Choose an existing source site to clone."
+msgstr "Escoge un sitio fuente existente para clonar."
+
+#: sections/class-ns-cloner-section-select-source.php:60
+msgid "Select a site to clone"
+msgstr "Selecciona un sitio para clonar"
+
+#: sections/class-ns-cloner-section-select-source.php:53
+msgid "You can use this plugin in Network mode  to choose from other source sites."
+msgstr "Puedes usar este plugin en modo red para elegir entre otros sitios de origen."
+
+#: sections/class-ns-cloner-section-select-source.php:48
+msgid "This is configurable for WordPress multisite, but here you only have one site installed to choose from, so it's been automatically selected for you."
+msgstr "Esto es configurable para WordPress multisitio, pero aquí solo tienes un sitio instalado para elegir, por lo que se ha seleccionado automáticamente para ti."
+
+#: sections/class-ns-cloner-section-select-source.php:47
+#: sections/class-ns-cloner-section-select-source.php:52
+msgid "The cloning source is set to the current site."
+msgstr "La fuente de clonación se establece en el sitio actual."
+
+#: sections/class-ns-cloner-section-select-source.php:44
+msgid "Select Source"
+msgstr "Selecciona el origen"
+
+#. translators: URL to plugin info page
+#: sections/class-ns-cloner-section-advertise-pro.php:112
+msgid "<a href=\"%s\" target=\"_blank\">NS Cloner Pro</a> enables you to control uploads cloning, so your cloned site could optionally continue to refer to the source site's media files."
+msgstr "<a href=\"%s\" target=\"_blank\">NS Cloner Pro</a> Te permite controlar la carga de clonaciones, así tu sitio clonado opcionalmente puede seguir refiriendo a los archivos de medios del sitio fuente."
+
+#: sections/class-ns-cloner-section-advertise-pro.php:108
+msgid "By default, all media library files will be copied by default to the new site, and links referring to them updated. "
+msgstr "or defecto, todos los archivos de la biblioteca de medios se copiarán en el nuevo sitio y se actualizarán los enlaces que hacen referencia a ellos. "
+
+#: sections/class-ns-cloner-section-advertise-pro.php:106
+msgid "Copy Media Files"
+msgstr "Copiar archivos de medios"
+
+#. translators: URL to plugin info page
+#: sections/class-ns-cloner-section-advertise-pro.php:97
+msgid "With <a href=\"%s\" target=\"_blank\">NS Cloner Pro</a> you can auto-generate new admin users, as well as have the option to clone all the existing users."
+msgstr "Con <a href=\"%s\" target=\"_blank\">NS Cloner Pro</a> puedes autogenerar nuevos usuarios administradores, así como tener la opción de clonar todos los usuarios existentes."
+
+#: sections/class-ns-cloner-section-advertise-pro.php:93
+msgid "By default, just the current admin user (you) will be automatically added as a user on the new site. "
+msgstr "Por defecto, solo el usuario administrador actual (tú) será añadido automáticamente como usuario en el nuevo sitio."
+
+#: sections/class-ns-cloner-section-advertise-pro.php:91
+msgid "Copy Users"
+msgstr "Copiar usuarios"
+
+#. translators: URL to plugin info page
+#: sections/class-ns-cloner-section-advertise-pro.php:82
+msgid " <a href=\"%s\" target=\"_blank\">NS Cloner Pro</a> offers the ability to perform an unlimited number of additional custom search and replace operations."
+msgstr "<a href=\"%s\" target=\"_blank\">NS Cloner Pro</a> ofrece la posibilidad de realizar un número ilimitado de operaciones de búsqueda y sustitución personalizadas adicionales."
+
+#: sections/class-ns-cloner-section-advertise-pro.php:78
+msgid "By default, the site name and URL will be replaced in all cloned content and settings. "
+msgstr "Por defecto, el nombre del sitio y la URL serán reemplazados en todos los contenidos y ajustes clonadas."
+
+#: sections/class-ns-cloner-section-advertise-pro.php:76
+msgid "Search and Replace"
+msgstr "Buscar y reemplazar"
+
+#. translators: URL to plugin info page
+#: sections/class-ns-cloner-section-advertise-pro.php:67
+msgid "With <a href=\"%s\" target=\"_blank\">NS Cloner Pro</a> you can customize which post types are cloned, giving you even more powerful flexibility."
+msgstr "Con <a href=\"%s\" target=\"_blank\">NS Cloner Pro</a> puedes personalizar qué tipos de entradas se clonan, dándote una flexibilidad aún más potente."
+
+#: sections/class-ns-cloner-section-advertise-pro.php:63
+msgid "All post types will be copied by default. "
+msgstr "Todos los tipos de entrada se copiarán por defecto."
+
+#: sections/class-ns-cloner-section-advertise-pro.php:61
+msgid "Post Types"
+msgstr "Tipos de entrada"
+
+#. translators: URL to plugin info page
+#: sections/class-ns-cloner-section-advertise-pro.php:52
+msgid "For more efficiency and precise control over which tables are cloned, check out <a href=\"%s\" target=\"_blank\">NS Cloner Pro</a>."
+msgstr "Para un control más eficiente y preciso de las tablas que se clonan, revisa <a href=\"%s\" target=\"_blank\">NS Cloner Pro</a>."
+
+#: sections/class-ns-cloner-section-advertise-pro.php:48
+msgid "All database tables will be copied by default. "
+msgstr "Todas las tablas de la base de datos se copiarán por defecto. "
+
+#: sections/class-ns-cloner-section-advertise-pro.php:46
+msgid "Copy Tables"
+msgstr "Copiar tablas"
+
+#: sections/class-ns-cloner-section-create-target.php:60
+#: sections/class-ns-cloner-section-create-target.php:64
+msgid "Site URL"
+msgstr "URL del sitio"
+
+#: sections/class-ns-cloner-section-create-target.php:56
+msgid "Give the target site a URL"
+msgstr "Dar una URL al sitio de destino"
+
+#: sections/class-ns-cloner-section-create-target.php:53
+msgid "Site title"
+msgstr "Título del sitio"
+
+#: sections/class-ns-cloner-section-create-target.php:52
+msgid "New Site Title"
+msgstr "Título del sitio nuevo"
+
+#: sections/class-ns-cloner-section-create-target.php:49
+msgid "Give the target site a title"
+msgstr "Dar un título al sitio de destino"
+
+#: sections/class-ns-cloner-section-create-target.php:47
+msgid "Create Site"
+msgstr "Crear sitio"
+
+#: sections/class-ns-cloner-section-create-target.php:47
+msgid "Create New Site"
+msgstr "Crea un nuevo sitio"
+
+#: sections/class-ns-cloner-section-additional-settings.php:100
+msgid "This will prevent trying to re-apply any SQL constraints to cloned tables, which help ensure data integrity but can sometimes result in permissions errors."
+msgstr "Esto evitará que se intente volver a aplicar cualquier restricción SQL a las tablas clonadas, lo que ayuda a garantizar la integridad de los datos pero a veces puede dar lugar a errores de permisos."
+
+#: sections/class-ns-cloner-section-additional-settings.php:96
+msgid "Skip constraints?"
+msgstr "¿Omitir las restricciones?"
+
+#: sections/class-ns-cloner-section-additional-settings.php:91
+msgid "This will prevent attempting to clone any SQL views along with tables, which can be required by plugins but can sometimes result in permissions errors."
+msgstr "Esto evitará que se intente clonar cualquier vista SQL junto con las tablas, lo cual puede ser solicitado por plugins pero a veces puede dar lugar a errores de permisos."
+
+#: sections/class-ns-cloner-section-additional-settings.php:87
+msgid "Skip views?"
+msgstr "¿Saltar vistas?"
+
+#: sections/class-ns-cloner-section-additional-settings.php:84
+msgid "Database"
+msgstr "Base de datos"
+
+#: sections/class-ns-cloner-section-additional-settings.php:82
+msgid "You can make cloning faster by increasing this number, but the higher it is the more jumpy and less smooth/accurate the progress bar will be."
+msgstr "Puedes hacer que la clonación sea más rápida aumentando este número, pero cuanto más alto sea, la barra de progreso será más inestable y menos fluida/precisa."
+
+#: sections/class-ns-cloner-section-additional-settings.php:81
+msgid "This is the number of items (rows or files) to clone in between updating the progress values."
+msgstr "Este es el número de elementos (filas o archivos) a clonar mientras se actualizan los valores de progreso."
+
+#: sections/class-ns-cloner-section-additional-settings.php:77
+msgid "Progress update interval"
+msgstr "Intervalo de actualización"
+
+#: sections/class-ns-cloner-section-additional-settings.php:74
+msgid "You can make cloning faster by increasing this number, but if it's too large for your server to handle you'll see SQL errors and need to reduce this setting again."
+msgstr "Puedes hacer que la clonación sea más rápida aumentando este número, pero si es demasiado grande para que tu servidor pueda manejarlo, verás errores de SQL y tendrás que volver a reducir este ajuste."
+
+#: sections/class-ns-cloner-section-additional-settings.php:73
+msgid "This controls how many database records will be copied at one time."
+msgstr "Controla el número de registros de la base de datos que se copiarán a la vez."
+
+#: sections/class-ns-cloner-section-additional-settings.php:69
+msgid "Rows per query"
+msgstr "Filas por consulta"
+
+#: sections/class-ns-cloner-section-additional-settings.php:67
+msgid "Performance"
+msgstr "Rendimiento"
+
+#: sections/class-ns-cloner-section-additional-settings.php:64
+msgid "If you enable logging, it's recommended to go to NS Cloner > Logs and clear your logs when you are finished."
+msgstr "Si activas el registro, se recomienda ir a NS Cloner > Registros y borrar los registros cuando hayas terminado."
+
+#: sections/class-ns-cloner-section-additional-settings.php:63
+msgid "Logs may contain sensitive information from your database."
+msgstr "Los registros pueden contener información sensible de tu base de datos."
+
+#: sections/class-ns-cloner-section-additional-settings.php:59
+msgid "Enable logging"
+msgstr "Activar el acceso"
+
+#: sections/class-ns-cloner-section-additional-settings.php:56
+msgid "Debugging"
+msgstr "Depurando"
+
+#: sections/class-ns-cloner-section-additional-settings.php:54
+msgid "Additional Settings"
+msgstr "Ajustes adicionales"
+
+#: templates/ns-template-logs.php:182
+msgid "View Log"
+msgstr "Ver registro"
+
+#: templates/ns-template-logs.php:164
+msgid "Size"
+msgstr "Tamaño"
+
+#: class-ns-cloner-process-manager.php:368 templates/ns-template-logs.php:163
+msgid "Log File"
+msgstr "Archivo de registro"
+
+#: templates/ns-template-logs.php:162
+msgid "Date"
+msgstr "Fecha"
+
+#: templates/ns-template-logs.php:154
+msgid "View Logs"
+msgstr "Ver registros"
+
+#: templates/ns-template-logs.php:146
+msgid "Delete All Plugin Data"
+msgstr "Borrar todos los datos del plugin"
+
+#: templates/ns-template-logs.php:142
+msgid "This is helpful in cases where a cloning operation gets stuck in limbo and the cancel button isn't working."
+msgstr "Esto es útil en los casos en los que una operación de clonación se queda bloqueada y el botón de cancelación no funciona."
+
+#: templates/ns-template-logs.php:141
+msgid "This will clear all plugin settings and any in-progress cloning data."
+msgstr "Esto vaciará todos los ajustes del plugin y cualquier dato de clonación en curso."
+
+#: templates/ns-template-logs.php:137
+msgid "Clear Plugin Data"
+msgstr "Vaciar datos del plugin"
+
+#: templates/ns-template-logs.php:129
+msgid "Delete All Logs"
+msgstr "Borrar todos los registros"
+
+#: templates/ns-template-logs.php:126
+msgid "Make sure that you don't need them for support or debugging, though, because they will be deleted permanently once cleared."
+msgstr "Sin embargo, asegúrate de que no los necesitas para el soporte o la depuración, ya que se eliminarán permanentemente una vez borrados."
+
+#: templates/ns-template-logs.php:125
+msgid "Logs may contain sensitive information from your database, so it's good security practice to clear them once no longer needed."
+msgstr "Los registros pueden contener información sensible de tu base de datos, por lo que es una buena práctica de seguridad vaciarlos cuando ya no sean necesarios."
+
+#: templates/ns-template-logs.php:122 templates/ns-template-logs.php:158
+msgid "No logs currently saved."
+msgstr "Actualmente no hay registros guardados."
+
+#: templates/ns-template-logs.php:118
+msgid "Manage Logs"
+msgstr "Gestionar registros"
+
+#: templates/ns-template-logs.php:87
+msgid "They may also be created via the command line or by frontend cloning (from member registrations) with Cloner Pro."
+msgstr "También se pueden crear a través de la línea de comandos o mediante la clonación de la vista pública (a partir de las inscripciones de los miembros) con Cloner Pro."
+
+#: templates/ns-template-logs.php:86
+msgid "Scheduled operations are created when someone clicks the clone button while another cloning operation is still running."
+msgstr "Las operaciones programadas se crean cuando alguien hace clic en el botón de clonación mientras otra operación de clonación sigue en marcha."
+
+#: templates/ns-template-logs.php:50 templates/ns-template-logs.php:78
+msgid "Delete"
+msgstr "Borrar"
+
+#: templates/ns-template-logs.php:49 templates/ns-template-logs.php:67
+#: templates/ns-template-logs.php:165
+msgid "View"
+msgstr "Ver"
+
+#: templates/ns-template-logs.php:48
+msgid "Created"
+msgstr "Creado"
+
+#: templates/ns-template-logs.php:47
+msgid "Type"
+msgstr "Tipo"
+
+#: templates/ns-template-logs.php:46
+msgid "Scheduled"
+msgstr "Programado"
+
+#: templates/ns-template-logs.php:42
+msgid "No scheduled cloning operations."
+msgstr "No hay operaciones de clonación programadas."
+
+#: templates/ns-template-logs.php:38
+msgid "Scheduled Operations"
+msgstr "Operaciones programadas"
+
+#: templates/ns-template-logs.php:29
+msgid "Logs & Status"
+msgstr "Registros y estados"
+
+#: templates/ns-template-sidebar.php:72
+msgid "Built by"
+msgstr "Desarrollado por"
+
+#: templates/ns-template-sidebar.php:37
+msgid "Rate it 5 Stars"
+msgstr "Valóralo con 5 estrellas"
+
+#: templates/ns-template-sidebar.php:33
+msgid "If the Cloner has saved you lots of time, tell everyone with a 5-star rating!"
+msgstr "Valóralo con 5 estrellas"
+
+#: templates/ns-template-sidebar.php:30
+msgid "Do you like NS Cloner?"
+msgstr "¿Te gusta NS Cloner?"
+
+#: templates/ns-template-main.php:130
+msgid "finished..."
+msgstr "terminado..."
+
+#: templates/ns-template-main.php:129
+msgid "Close"
+msgstr "Cerrar"
+
+#: templates/ns-template-main.php:121
+msgid "items processed"
+msgstr "elementos procesados"
+
+#: templates/ns-template-main.php:112
+msgid "Current status"
+msgstr "Estado actual"
+
+#: templates/ns-template-main.php:109
+msgid "Click here to try continuing."
+msgstr "Haz clic aquí para tratar de continuar."
+
+#: templates/ns-template-main.php:108
+msgid "If you've been waiting a while and everything is stopped, though, you can try forcing a continuation (if so, expect to see some \"Duplicate entry\" notices at the end from resuming the failed process)."
+msgstr "Si has estado esperando un tiempo y todo está parado, puedes intentar forzar una continuación (si es así, es de esperar ver algunos avisos de \"Entrada duplicada\" al final por reanudar el proceso fallido)."
+
+#: templates/ns-template-main.php:107
+msgid "One or more of the cloning processes below have gone more than 60 seconds without showing progress. If at least one item is still progressing, it's probably fine and you can ignore this."
+msgstr "Uno o más de los procesos de clonación de abajo han pasado más de 60 segundos sin mostrar progreso. Si al menos uno de los elementos sigue progresando, probablemente esté bien y puedas ignorar este mensaje."
+
+#: templates/ns-template-main.php:104
+msgid "It appears background processing may be getting blocked on the server (or could just be running slowly). Activating backup AJAX processing to ensure completion, so please keep this window open."
+msgstr "Parece que el procesamiento en segundo plano puede estar bloqueado en el servidor (o simplemente podría estar funcionando lentamente). Se está activando el procesamiento AJAX de respaldo para asegurar la finalización, así que por favor mantén esta ventana abierta."
+
+#: templates/ns-template-main.php:99
+msgid "started..."
+msgstr "iniciado..."
+
+#: templates/ns-template-main.php:88
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: templates/ns-template-main.php:87
+msgid "Refresh"
+msgstr "Recargar"
+
+#: templates/ns-template-main.php:68
+msgid "We have made an incredibly complex process ridiculously easy with this powerful plugin. We have tested thoroughly and used this exact tool in our own live multisite environments. However, our comfort level should not dictate your precautions. If you're confident in your testing and back-up scheme - which you should have in place anyway ;) - then by all means - start cloning like there's no tomorrow!"
+msgstr "Hemos hecho que un proceso increíblemente complejo sea ridículamente fácil con este poderoso plugin. Hemos probado a fondo y utilizado exactamente esta herramienta en nuestros propios entornos multisitio en vivo. Sin embargo, nuestro nivel de comodidad no debe dictar tus precauciones. Si tienes confianza en tu esquema de pruebas y copias de seguridad -que debes tener en tu lugar de todos modos ;) - entonces, por supuesto, ¡empieza a clonar como si no hubiera un mañana!"
+
+#: templates/ns-template-main.php:67
+msgid "WARNING:"
+msgstr "ADVERTENCIA:"
+
+#: templates/ns-template-main.php:46
+msgid "No cloning modes are currently available for this site."
+msgstr "Actualmente no hay modos de clonación disponibles para este sitio."
+
+#: templates/ns-template-main.php:41
+msgid "Expand All"
+msgstr "Abrir todo"
+
+#: templates/ns-template-main.php:37
+msgid "Collapse All"
+msgstr "Cerrar todo"
+
+#: templates/ns-template-main.php:35
+msgid "Select Cloning Mode"
+msgstr "Selecciona el modo de clonación"
+
+#: templates/ns-template-analytics-settings-modal.php:13
+msgid "By default NO stats are shared - are you willing to Opt-In?"
+msgstr "Por defecto NO se comparten las estadísticas - ¿estás de dispuesto a apuntarte?"
+
+#: templates/ns-template-analytics-settings-modal.php:8
+msgid ""
+"We'd be grateful if you are willing to allow the NS Cloner to share cloning statistics with us to help improve the plugin and offer better support. \n"
+"            It won't include any actual data from your site except the raw domain name at most. \n"
+"            But you have full control over this and can update it at any time from the Cloner Logs/Status page."
+msgstr ""
+"Te estaremos agradecidos si permites a NS Cloner compartir las estadísticas de clonación con nosotros para ayudar a mejorar el plugin y ofrecer un mejor soporte. \n"
+"            No incluirá ningún dato real de tu sitio a excepción el nombre de dominio en bruto como máximo. \n"
+"            Pero tienes el control total sobre esto y puedes actualizarlo en cualquier momento desde la página Registros del clonador/Página de estado."
+
+#: templates/ns-template-analytics-settings-modal.php:6
+#: templates/ns-template-logs.php:94
+msgid "NS Cloner Statistics"
+msgstr "Estadísticas de NS Cloner"
+
+#. translators: %s: url to network setup page.
+#: templates/ns-template-warnings.php:162
+msgid "If you have basic auth enabled, you can <a href=\"%s\" target=\"_blank\">add a workaround</a>."
+msgstr "Si tienes activada la autenticación básica, puedes <a href=\"%s\" target=\"_blank\">añadir una solución alternativa</a>."
+
+#: templates/ns-template-warnings.php:158
+msgid "The Cloner will default to AJAX processing, so you should be able to still clone sites successfully, but progress will stop if you leave this page. "
+msgstr "El clonador se ajustará por defecto al procesamiento AJAX, por lo que deberías poder seguir clonando sitios correctamente, pero el progreso se detendrá si abandonas esta página. "
+
+#: templates/ns-template-warnings.php:157
+msgid "It appears you have HTTP basic auth or something else blocking remote requests to your site, which means background cloning won't work. "
+msgstr "Parece que tienes autorización HTTP básica o algo más que bloquea las peticiones remotas a tu sitio, lo que significa que la clonación en segundo plano no funcionará. "
+
+#. translators: %s: url to network setup page.
+#: templates/ns-template-warnings.php:143
+msgid "Please check the recommended htaccess settings <a href=\"%s\" target=\"_blank\">here</a> and make sure your .htaccess file matches."
+msgstr "Por favor, comprueba los ajustes htaccess recomendados <a href=\"%s\" target=\"_blank\">aquí</a> y asegúrate de que tu archivo .htaccess coincide."
+
+#: templates/ns-template-warnings.php:139
+msgid "It appears that you have a non-standard (possibly incorrect) .htaccess file for a multisite install. Cloned sites will not work if rewrites are not configured correctly. "
+msgstr "Parece que tienes un archivo .htaccess no estándar (posiblemente incorrecto) para una instalación multisitio. Los sitios clonados no funcionarán si las reescrituras no están configuradas correctamente. "
+
+#. translators: %d: memory limit in megabytes.
+#: templates/ns-template-warnings.php:118
+msgid "You may want to increase the memory_limit in php.ini (or wherever your host supports PHP configuration updates) to avoid any out-of-memory errors."
+msgstr "Es posible que quieras aumentar el límite de memoria en php.ini (o en cualquier lugar donde tu proveedor de alojamiento admita actualizaciones de configuración de PHP) para evitar cualquier error de falta de memoria."
+
+#. translators: %d: memory limit in megabytes.
+#: templates/ns-template-warnings.php:117
+msgid "This host's memory_limit is set to %dMB - we generally recommend at least 128MB for running the Cloner."
+msgstr "Este proveedor de hosting tiene el memory_limit establecido en %dMB. Generalmente recomendamos al menos 128MB para ejecutar el clonador."
+
+#. translators: %d: max execution time in seconds.
+#: templates/ns-template-warnings.php:107
+msgid "You may want to increase the max_execution_time in php.ini (or wherever your host supports PHP configuration updates) to avoid any timeout errors."
+msgstr "Es posible que quieras aumentar el max_execution_time en php.ini (o en cualquier lugar donde tu proveedor de hosting soporte actualizaciones de configuración de PHP) para evitar cualquier error de tiempo de espera."
+
+#. translators: %d: max execution time in seconds.
+#: templates/ns-template-warnings.php:106
+msgid "This host's max_execution_time is set to %d seconds - we generally recommend at least 60 seconds for running the Cloner."
+msgstr "Este proveedor de hosting tiene el max_execution_time establecido en %d segundos. Generalmente recomendamos al menos 60 segundos para ejecutar el clonador."
+
+#. translators: %s: path to logs directory.
+#: templates/ns-template-warnings.php:92
+msgid "The logs directory for NS Cloner (<code>%s</code>) is not writable by the server. The Cloner will still work, but logs won't be available in case anything needs debugging."
+msgstr "El directorio de registros de NS Cloner  (<code>%s</code>) no es escribible por el servidor. El clonador seguirá funcionando, pero los registros no estarán disponibles en caso de que sea necesario depurar algo."
+
+#. translators: URL to network plugins page
+#: templates/ns-template-warnings.php:79
+msgid "Just a heads up: the NS Cloner is most powerful and has additional features available as a Network Activated plugin. You can go to <a href=\"%s\">Network Admin > Plugins</a> to activate it."
+msgstr "Solo un aviso: NS Cloner es más potente y tiene características adicionales disponibles como un plugin activado para la red. Puedes ir a <a href=\"%s\">Administrador de red > Plugins</a> para activarlo."
+
+#. translators: URL to network cloner page
+#: templates/ns-template-warnings.php:72
+msgid "Just a heads up: the NS Cloner is most powerful and has additional features available when used as a Multisite Network plugin. You can <a href=\"%s\">go here to access the Network Cloner page</a>."
+msgstr "Solo un aviso: NS Cloner es más potente y tiene características adicionales disponibles como un plugin de red multisitio. Puedes <a href=\"%s\">ir aquí para acceder a la página del clonador de redes</a>."
+
+#. translators: URL to plugin info page
+#: templates/ns-template-warnings.php:60
+msgid "For cloning to and from single sites, check out <a href=\"%s\" target=\"_blank\">NS Cloner Pro</a>."
+msgstr "Para clonar desde y hacia sitios individuales, consulta <a href=\"%s\" target=\"_blank\">NS Cloner Pro</a>."
+
+#. translators: URL to network plugins page
+#: templates/ns-template-warnings.php:55
+msgid "The free version of NS Cloner only works as a Network Activated plugin. Go to <a href=\"%s\">Network Admin > Plugins</a> to activate it."
+msgstr "La versión gratuita de NS Cloner solo funciona como plugin activado para la red. Ve a <a href=\"%s\">Administrador de la red > Plugins</a> para activarlo."
+
+#. translators: URL to network cloner page
+#: templates/ns-template-warnings.php:49
+msgid "The free version of NS Cloner only works as a Multisite Network plugin (<a href=\"%s\">go here to access the Network Cloner page</a>)."
+msgstr "La versión gratuita de NS Cloner sólo funciona como un plugin de red multisitio (<a href=\"%s\">ve aquí para acceder a la página de Network Cloner</a>)."
+
+#: templates/ns-template-warnings.php:45
+msgid "The free version of NS Cloner only works on WordPress Multisite."
+msgstr "La versión gratuita de NS Cloner solo funciona en WordPress Multisitio."
+
+#. translators: URLs to plugins page and plugin license page
+#: templates/ns-template-warnings.php:33
+msgid "NS Cloner Pro needs to be updated for compatibility with NS Cloner 4. Please <a href=\"%s\" target=\"_blank\">click here</a> to check for the latest version, and then click \"Update now\" on NS Cloner Pro when you are redirected to the plugins page (you'll need to have <a href=\"%s\" target=\"_blank\">entered an active license</a> for the new version to show up)."
+msgstr "NS Cloner Pro necesita ser actualizado para ser compatible con NS Cloner 4. Por favor <a href=\"%s\" target=\"_blank\">haz clic aquí</a> para comprobar la última versión, y luego haz clic en «Actualizar ahora» en NS Cloner Pro cuando seas redirigido a la página de plugins (necesitarás haber<a href=\"%s\" target=\"_blank\">introducido una licencia activa</a> para que aparezca la nueva versión)."
+
+#: templates/ns-template-sidebar-sub.php:52
+#: templates/ns-template-sidebar.php:100
+msgid "Continue to Support"
+msgstr "Pasar a soporte"
+
+#: templates/ns-template-sidebar-sub.php:48
+#: templates/ns-template-sidebar.php:96
+msgid "(Please send privately, not on a forum - some sensitive info from your database could be included in the logs.)"
+msgstr "(Por favor, envíalo en privado, no en un foro, ya que podría incluirse información sensible de tu base de datos en los registros)."
+
+#: templates/ns-template-sidebar-sub.php:45
+#: templates/ns-template-sidebar.php:93
+msgid "If you're going to open a support request, could you please copy the log urls listed below and paste them at the bottom of your support request so we can give you better and faster help? Thank you!"
+msgstr "Si vas a abrir una solicitud de soporte, ¿podrías copiar las urls de registro que aparecen a continuación y pegarlas en la parte inferior de tu solicitud de soporte para que podamos darte una ayuda mejor y más rápida? Gracias."
+
+#: templates/ns-template-sidebar-sub.php:43
+#: templates/ns-template-sidebar.php:91
+msgid "Before you go..."
+msgstr "Antes de que te vayas..."
+
+#: templates/ns-template-sidebar-sub.php:32
+#: templates/ns-template-sidebar.php:46
+msgid "Receive updates, beta invites, articles and more!"
+msgstr "Recibe actualizaciones, invitaciones a betas, artículos y mucho más."
+
+#: templates/ns-template-sidebar-sub.php:30
+#: templates/ns-template-sidebar.php:44
+msgid "Don't Miss Anything!"
+msgstr "¡No te pierdas nada!"
+
+#: templates/ns-template-sidebar-sub.php:23
+#: templates/ns-template-sidebar.php:23
+msgid "Support & Feature Requests"
+msgstr "Soporte y peticiones de características"
+
+#: templates/ns-template-sidebar-sub.php:19
+#: templates/ns-template-sidebar.php:19
+msgid "Have any issues with the Cloner, or ideas on how to make it better? We'd love to hear from you."
+msgstr "¿Tienes algún problema con el clonador o ideas para mejorarlo? Nos encantaría escucharte."
+
+#: templates/ns-template-sidebar-sub.php:16
+#: templates/ns-template-sidebar.php:16
+msgid "Support"
+msgstr "Soporte"
+
+#. Author of the plugin
+msgid "Never Settle"
+msgstr "Never Settle"
+
+#. Description of the plugin
+msgid "The amazing NS Cloner creates a new site as an exact clone / duplicate / copy of an existing site with theme and all plugins and settings intact in just a few steps. Check out NS Cloner Pro for additional powerful add-ons and features!"
+msgstr "El increíble NS Cloner crea un nuevo sitio como un clon exacto/duplicado/copia de un sitio existente con el tema y todos los plugins y ajustes intactos en sólo unos pocos pasos. ¡Echa un vistazo a NS Cloner Pro para obtener potentes complementos y características adicionales!"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://neversettle.it"
+msgstr "https://neversettle.it"
+
+#. Plugin Name of the plugin
+msgid "NS Cloner - Site Copier"
+msgstr "NS Cloner - Site Copier"
