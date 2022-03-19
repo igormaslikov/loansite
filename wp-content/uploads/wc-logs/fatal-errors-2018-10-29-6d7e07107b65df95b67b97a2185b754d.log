@@ -1,0 +1,155 @@
+2018-10-29T23:09:35+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:09:39+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:09:39+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:09:41+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:09:46+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:09:53+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:10:06+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:10:08+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:10:14+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:10:16+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:10:27+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:10:42+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:10:50+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:11:14+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-text-dark: line: 19 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-text-dark')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3856): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3613): Leafo\ScssPhp\Compiler->applyArguments(Array, Array)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2221): Leafo\ScssPhp\Compiler->callScssFunction('color-yiq' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:11:19+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-contrasted-threshold: line: 35 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-contrasted-...')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2041): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(1711): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(1316): Leafo\ScssPhp\Compiler->compileChild(Array, O in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:11:29+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $yiq-contrasted-threshold: line: 35 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('yiq-contrasted-...')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2041): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(1711): Leafo\ScssPhp\Compiler->reduce(Array, true)
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(1316): Leafo\ScssPhp\Compiler->compileChild(Array, O in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-29T23:40:28+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$body_color in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:236
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(36): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates/in in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 236
+
+2018-10-29T23:41:05+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$body_color in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:236
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(36): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates/in in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 236
+
+2018-10-29T23:41:35+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$body_color in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:236
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(36): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates/in in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 236
+

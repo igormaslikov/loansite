@@ -1,0 +1,155 @@
+2018-10-30T01:00:47+00:00 CRITICAL syntax error, unexpected ':' in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 158
+
+2018-10-30T01:10:37+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:10:41+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:11:01+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:11:05+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:11:08+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:11:30+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:11:37+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:11:42+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:11:57+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:11:58+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:12:14+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:12:14+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:12:30+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:12:35+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:12:37+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:12:41+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+
+2018-10-30T01:12:41+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$btn_font_size in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:247
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php(37): YDG\Astra\Builder::load_variables()
+#1 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#2 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 247
+

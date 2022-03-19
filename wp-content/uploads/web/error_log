@@ -1,0 +1,4 @@
+[12-Jan-2021 17:24:11 UTC] PHP Notice:  Undefined variable: MsgBody in /home/m3rsokj8q7s9/public_html/wp-content/uploads/web/login.php on line 25
+[12-Jan-2021 17:24:12 UTC] PHP Notice:  Undefined index: login in /home/m3rsokj8q7s9/public_html/wp-content/uploads/web/login.php on line 58
+[12-Jan-2021 17:24:53 UTC] PHP Notice:  Undefined variable: MsgBody in /home/m3rsokj8q7s9/public_html/wp-content/uploads/web/login.php on line 25
+[12-Jan-2021 17:24:53 UTC] PHP Notice:  Undefined index: login in /home/m3rsokj8q7s9/public_html/wp-content/uploads/web/login.php on line 58

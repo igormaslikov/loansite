@@ -1,0 +1,18 @@
+2018-10-31T01:56:50+00:00 CRITICAL Uncaught Leafo\ScssPhp\Exception\CompilerException: Undefined variable $position: line: 76 in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php:3555
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(3199): Leafo\ScssPhp\Compiler->throwError('Undefined varia...')
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(2166): Leafo\ScssPhp\Compiler->get('position')
+#2 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(1662): Leafo\ScssPhp\Compiler->reduce(Array)
+#3 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(1335): Leafo\ScssPhp\Compiler->compileChild(Array, Object(Leafo\ScssPhp\Formatter\OutputBlock))
+#4 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php(1088): Leafo\ScssPhp\Compiler->compileC in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/vendor/scssphp/src/Compiler.php on line 3555
+
+2018-10-31T03:21:50+00:00 CRITICAL Uncaught Error: __clone method called on non-object in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php:2571
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-ajax-layout.php(233): FLBuilderModel::copy_col('5bd91fc0914b8', NULL, '')
+#1 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-ajax.php(226): FLBuilderAJAXLayout::copy_col('5bd91fc0914b8', NULL, '')
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-ajax.php(42): FLBuilderAJAX::call_action()
+#3 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): FLBuilderAJAX::run(Object(WP))
+#4 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /home/frameworkstaging/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#6 /home/frameworkstaging/public_html/wp-includes/class-wp.php(726): do_action_ in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php on line 2571
+

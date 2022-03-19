@@ -1,0 +1,198 @@
+2018-10-25T05:36:38+00:00 CRITICAL Uncaught Error: Call to undefined function YDG\Astra\astra_get_option() in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:9
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-theme.php(10): YDG\Astra\Builder::init()
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/functions.php(18): YDG\Astra\Theme::init()
+#2 /home/frameworkstaging/public_html/wp-settings.php(424): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-config.php(89): require_once('/home/framework...')
+#4 /home/frameworkstaging/public_html/wp-load.php(37): require_once('/home/framework...')
+#5 /home/frameworkstaging/public_html/wp-admin/admin-ajax.php(22): require_once('/home/framework...')
+#6 {main}
+  thrown in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 9
+
+2018-10-25T05:36:39+00:00 CRITICAL Uncaught Error: Call to undefined function YDG\Astra\astra_get_option() in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:9
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-theme.php(10): YDG\Astra\Builder::init()
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/functions.php(18): YDG\Astra\Theme::init()
+#2 /home/frameworkstaging/public_html/wp-settings.php(424): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-config.php(89): require_once('/home/framework...')
+#4 /home/frameworkstaging/public_html/wp-load.php(37): require_once('/home/framework...')
+#5 /home/frameworkstaging/public_html/wp-blog-header.php(13): require_once('/home/framework...')
+#6 /home/frameworkstaging/public_html/index.php(17): require('/home/framework...')
+#7 {main}
+  thrown in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 9
+
+2018-10-25T05:37:06+00:00 CRITICAL Uncaught Error: Call to undefined function YDG\Astra\astra_get_option() in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:9
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-theme.php(10): YDG\Astra\Builder::init()
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/functions.php(18): YDG\Astra\Theme::init()
+#2 /home/frameworkstaging/public_html/wp-settings.php(424): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-config.php(89): require_once('/home/framework...')
+#4 /home/frameworkstaging/public_html/wp-load.php(37): require_once('/home/framework...')
+#5 /home/frameworkstaging/public_html/wp-blog-header.php(13): require_once('/home/framework...')
+#6 /home/frameworkstaging/public_html/index.php(17): require('/home/framework...')
+#7 {main}
+  thrown in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 9
+
+2018-10-25T05:37:48+00:00 CRITICAL Uncaught Error: Class 'Astra_Theme_Options' not found in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:9
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-theme.php(10): YDG\Astra\Builder::init()
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/functions.php(18): YDG\Astra\Theme::init()
+#2 /home/frameworkstaging/public_html/wp-settings.php(424): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-config.php(89): require_once('/home/framework...')
+#4 /home/frameworkstaging/public_html/wp-load.php(37): require_once('/home/framework...')
+#5 /home/frameworkstaging/public_html/wp-blog-header.php(13): require_once('/home/framework...')
+#6 /home/frameworkstaging/public_html/index.php(17): require('/home/framework...')
+#7 {main}
+  thrown in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 9
+
+2018-10-25T05:38:16+00:00 CRITICAL Uncaught Error: Class 'Astra_Theme_Options' not found in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:9
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-theme.php(10): YDG\Astra\Builder::init()
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/functions.php(18): YDG\Astra\Theme::init()
+#2 /home/frameworkstaging/public_html/wp-settings.php(424): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-config.php(89): require_once('/home/framework...')
+#4 /home/frameworkstaging/public_html/wp-load.php(37): require_once('/home/framework...')
+#5 /home/frameworkstaging/public_html/wp-admin/admin-ajax.php(22): require_once('/home/framework...')
+#6 {main}
+  thrown in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 9
+
+2018-10-25T05:38:26+00:00 CRITICAL Uncaught Error: Call to undefined function YDG\Astra\astra_get_option() in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:9
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-theme.php(10): YDG\Astra\Builder::init()
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/functions.php(18): YDG\Astra\Theme::init()
+#2 /home/frameworkstaging/public_html/wp-settings.php(424): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-config.php(89): require_once('/home/framework...')
+#4 /home/frameworkstaging/public_html/wp-load.php(37): require_once('/home/framework...')
+#5 /home/frameworkstaging/public_html/wp-blog-header.php(13): require_once('/home/framework...')
+#6 /home/frameworkstaging/public_html/index.php(17): require('/home/framework...')
+#7 {main}
+  thrown in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 9
+
+2018-10-25T05:38:37+00:00 CRITICAL Uncaught Error: Call to undefined function YDG\Astra\astra_get_option() in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:9
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-theme.php(10): YDG\Astra\Builder::init()
+#1 /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/functions.php(18): YDG\Astra\Theme::init()
+#2 /home/frameworkstaging/public_html/wp-settings.php(424): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-config.php(89): require_once('/home/framework...')
+#4 /home/frameworkstaging/public_html/wp-load.php(37): require_once('/home/framework...')
+#5 /home/frameworkstaging/public_html/wp-admin/admin-ajax.php(22): require_once('/home/framework...')
+#6 {main}
+  thrown in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 9
+
+2018-10-25T05:39:03+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$pri_color in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:16
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#1 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates/includes/user-template-settings.php(15): FLBuilder::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-con in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 16
+
+2018-10-25T05:39:47+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$pri_color in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:29
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#1 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates/includes/user-template-settings.php(15): FLBuilder::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-con in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 29
+
+2018-10-25T05:39:51+00:00 CRITICAL Uncaught Error: Access to undeclared static property: YDG\Astra\Builder::$pri_color in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php:29
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-includes/class-wp-hook.php(286): YDG\Astra\Builder::call_to_action_defaults(Array, 'user_template')
+#1 /home/frameworkstaging/public_html/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-model.php(3625): apply_filters('fl_builder_regi...', Array, 'user_template')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(184): FLBuilderModel::register_settings_form('user_template', Array)
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/extensions/fl-builder-user-templates/includes/user-template-settings.php(15): FLBuilder::register_settings_form('user_template', Array)
+#5 /home/frameworkstaging/public_html/wp-con in /home/frameworkstaging/public_html/wp-content/themes/astra-ydg-child/inc/class-ydg-builder.php on line 29
+
+2018-10-25T05:44:03+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php:42
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2268): include()
+#1 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/cta/includes/frontend.css.php(46): FLBuilder::render_module_css('button', '5bd1582247cb6', Object(stdClass))
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2401): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-ajax-layout.php(544): FLBuilder::render_css()
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-ajax-layout.php(51): FLBuilderAJAXLayout::render_assets()
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder-ajax-layout.php(293): FLBuilderAJAXLayout::rende in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php on line 42
+
+2018-10-25T05:44:50+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php:42
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2268): include()
+#1 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/cta/includes/frontend.css.php(46): FLBuilder::render_module_css('button', '5bd1582247cb6', Object(stdClass))
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2401): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(586): FLBuilder::render_css(true)
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(504): FLBuilder::enqueue_layout_cached_asset('css', false)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(424): FLBuilder::enqueue_layout_styles_scripts( in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php on line 42
+
+2018-10-25T05:47:43+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php:42
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2268): include()
+#1 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/cta/includes/frontend.css.php(46): FLBuilder::render_module_css('button', '5bd1582247cb6', Object(stdClass))
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2401): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(586): FLBuilder::render_css(true)
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(504): FLBuilder::enqueue_layout_cached_asset('css', false)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(424): FLBuilder::enqueue_layout_styles_scripts( in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php on line 42
+
+2018-10-25T05:47:51+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php:42
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2268): include()
+#1 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/cta/includes/frontend.css.php(46): FLBuilder::render_module_css('button', '5bd1582247cb6', Object(stdClass))
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2401): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(586): FLBuilder::render_css(true)
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(504): FLBuilder::enqueue_layout_cached_asset('css', false)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(424): FLBuilder::enqueue_layout_styles_scripts( in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php on line 42
+
+2018-10-25T05:49:18+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php:42
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2268): include()
+#1 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/cta/includes/frontend.css.php(46): FLBuilder::render_module_css('button', '5bd1582247cb6', Object(stdClass))
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2401): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(586): FLBuilder::render_css(true)
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(504): FLBuilder::enqueue_layout_cached_asset('css', false)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(424): FLBuilder::enqueue_layout_styles_scripts( in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php on line 42
+
+2018-10-25T05:49:36+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php:42
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2268): include()
+#1 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/cta/includes/frontend.css.php(46): FLBuilder::render_module_css('button', '5bd1582247cb6', Object(stdClass))
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2401): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(586): FLBuilder::render_css(true)
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(504): FLBuilder::enqueue_layout_cached_asset('css', false)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(424): FLBuilder::enqueue_layout_styles_scripts( in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php on line 42
+
+2018-10-25T05:50:01+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php:42
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2268): include()
+#1 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/cta/includes/frontend.css.php(46): FLBuilder::render_module_css('button', '5bd1582247cb6', Object(stdClass))
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2401): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(586): FLBuilder::render_css(true)
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(504): FLBuilder::enqueue_layout_cached_asset('css', false)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(424): FLBuilder::enqueue_layout_styles_scripts( in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php on line 42
+
+2018-10-25T05:50:06+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php:42
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2268): include()
+#1 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/cta/includes/frontend.css.php(46): FLBuilder::render_module_css('button', '5bd1582247cb6', Object(stdClass))
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2401): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(586): FLBuilder::render_css(true)
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(504): FLBuilder::enqueue_layout_cached_asset('css', false)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(424): FLBuilder::enqueue_layout_styles_scripts( in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php on line 42
+
+2018-10-25T05:50:11+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php:42
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2268): include()
+#1 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/cta/includes/frontend.css.php(46): FLBuilder::render_module_css('button', '5bd1582247cb6', Object(stdClass))
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2401): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(586): FLBuilder::render_css(true)
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(504): FLBuilder::enqueue_layout_cached_asset('css', false)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(424): FLBuilder::enqueue_layout_styles_scripts( in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php on line 42
+
+2018-10-25T05:51:38+00:00 CRITICAL Uncaught Error: Unsupported operand types in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php:42
+Stack trace:
+#0 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2268): include()
+#1 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/cta/includes/frontend.css.php(46): FLBuilder::render_module_css('button', '5bd1582247cb6', Object(stdClass))
+#2 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(2401): include('/home/framework...')
+#3 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(586): FLBuilder::render_css(true)
+#4 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(504): FLBuilder::enqueue_layout_cached_asset('css', false)
+#5 /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/classes/class-fl-builder.php(424): FLBuilder::enqueue_layout_styles_scripts( in /home/frameworkstaging/public_html/wp-content/plugins/bb-plugin/modules/button/includes/frontend.css.php on line 42
+
